@@ -1,36 +1,67 @@
-# Habit Tracker
-#### Video Demo: https://youtu.be/your_video_link_here
-#### Description:
+Habit Tracker — CLI Productivity Tool
 
-The **Habit Tracker** is a Python-based command-line application designed to help users build and maintain positive habits through daily tracking and progress monitoring.
+A lightweight Python command-line application to track daily habits, monitor streaks, and export progress data.
 
-This project allows users to:
-- **Add new habits** they want to track (e.g., Exercise, Reading, Meditation).
-- **Mark habits as completed** for the current day.
-- **View progress**, including current and longest streaks for each habit.
-- **Edit or delete existing habits.**
-- **Export data** to a JSON or CSV file for external viewing or backup.
+Tech Stack: Python · JSON · Pytest
 
-The app stores all data persistently in a JSON file (`habits.json`), ensuring users never lose their progress between sessions.  
+🔹 Key Features
 
-It also includes a test file (`test_project.py`) that uses Python’s `assert` statements to validate the correctness of core functions such as:
-- Adding habits  
-- Recording completions  
-- Computing streaks  
+Create, edit, and delete habits
 
-#### Files in the project:
-- `project.py` — Main program file containing all functionality.
-- `test_project.py` — Contains test cases for validation.
-- `habits.json` — Stores habit and completion data (auto-generated).
-- `README.md` — Description file (this one).
+Mark habits as completed per day
 
-#### Technologies Used:
-- Python 3
-- JSON for data storage
-- Pytest for testing
+Automatic calculation of current and longest streaks
 
-#### How to Run:
-1. Open a terminal in the project folder.
-2. Run the program with:
-   ```bash
-   python project.py
+Persistent storage using JSON (habits.json)
+
+Export habit data to JSON or CSV
+
+Unit testing of core logic using Pytest
+
+🔹 Tech Stack
+Layer	Technology
+Application	Python 3
+Storage	JSON
+Testing	Pytest
+🔹 Project Structure
+habit-tracker/
+├── project.py
+├── test_project.py
+├── habits.json
+└── README.md
+
+🔹 Setup & Run
+git clone https://github.com/DeepikaReddy0607/habit-tracker.git
+cd habit-tracker
+python project.py
+
+
+To run tests:
+
+pytest test_project.py
+
+🔹 Highlights
+
+Designed modular functions for habit management and streak calculation
+
+Implemented persistent data handling without external databases
+
+Ensured correctness with automated unit tests
+
+Focused on simplicity and reliability for daily CLI usage
+
+🔹 Future Enhancements
+
+Add date-range analytics and visual summaries
+
+Support cloud backup or sync
+
+Build a GUI or web interface
+
+Add reminder notifications
+
+🔹 Author
+
+Rudru Deepika Reddy
+B.Tech CSE Student
+GitHub: https://github.com/DeepikaReddy0607
