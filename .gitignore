@@ -1,18 +1,13 @@
 # =========================
-# Python
+# Python cache / bytecode
 # =========================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-.Python
-*.egg-info/
-.eggs/
-dist/
-build/
 
 # =========================
-# Virtual Environments
+# Virtual environments
 # =========================
 venv/
 env/
@@ -20,12 +15,12 @@ ENV/
 .venv/
 
 # =========================
-# Environment Variables / Secrets
+# Environment variables
 # =========================
 .env
 
 # =========================
-# Databases
+# Databases / local data
 # =========================
 *.sqlite3
 *.db
@@ -36,40 +31,24 @@ ENV/
 *.log
 
 # =========================
-# Node / Frontend
+# Test / coverage
 # =========================
-node_modules/
-npm-debug.log*
+.coverage
+htmlcov/
+.pytest_cache/
 
 # =========================
-# Flutter (if used)
-# =========================
-build/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-android/.gradle/
-ios/Pods/
-
-# =========================
-# IDE / Editors
+# IDE / editor settings
 # =========================
 .vscode/
 .idea/
 *.iml
 
 # =========================
-# OS Files
+# OS generated files
 # =========================
 .DS_Store
 Thumbs.db
-
-# =========================
-# Test / Coverage
-# =========================
-.coverage
-htmlcov/
-.pytest_cache/
 
 # =========================
 # Temp files
