@@ -1,0 +1,20 @@
+{
+    "habits": [
+        {
+            "id": 1,
+            "name": "dancing",
+            "created": "2025-10-15"
+        },
+        {
+            "id": 2,
+            "name": "Coding",
+            "created": "2025-10-15"
+        }
+    ],
+    "completions": {
+        "1": [
+            "2025-10-15"
+        ],
+        "2": []
+    }
+}
